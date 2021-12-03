@@ -4,7 +4,7 @@ const {
     decrypt
 } = require('../crypto');
 
-async function cadastrarString(req, res) {
+async function registerString(req, res) {
     const {
         content
     } = req.body;
@@ -67,6 +67,6 @@ async function findString(req, res) {
 }
 
 module.exports = {
-    cadastrarString,
+    registerString,
     findString
 }

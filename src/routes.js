@@ -1,9 +1,9 @@
 const express = require('express');
-const {cadastrarString, findString} = require('./controllers/ChallengeEncriptador.js');
+const {registerString, findString} = require('./controllers/ChallengeEncriptador.js');
 
 const routes = express();
 
-routes.post('/encripts', cadastrarString);
+routes.post('/encripts', registerString);
 routes.get('/encripts/:idString', findString);
 
 module.exports = routes;

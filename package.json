@@ -5,5 +5,24 @@
     "knex": "^0.95.14",
     "nodemon": "^2.0.15",
     "pg": "^8.7.1"
-  }
+  },
+  "name": "facile-challenge",
+  "description": "Desafio Técnico e Criativo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielli5047/facile-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrielli5047/facile-challenge/issues"
+  },
+  "homepage": "https://github.com/Gabrielli5047/facile-challenge#readme"
 }
